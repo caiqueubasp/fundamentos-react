@@ -14,6 +14,8 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai"
+import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
 
 const App = (props) => {
     const tag = <h1>Olá React!!!</h1>;
@@ -22,6 +24,20 @@ const App = (props) => {
         <div id="App">
             { tag}
             <br></br>
+
+            <Card
+                titulo="#12 - Contador"
+                color="#424242"
+            >
+               <Contador numeroInicial={109}></Contador>
+            </Card>
+
+            <Card
+                titulo="#11 - Componente Controlado"
+                color="#e45f56"
+            >
+               <Input></Input>
+            </Card>
 
             <Card
                 titulo="#10 - Comunicação Indireta"

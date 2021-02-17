@@ -1,0 +1,31 @@
+.box-container-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #5f5f5a;
+    margin: 5px;
+}
+
+.box-container-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #85856a;
+    margin: 5px;
+}
+
+.box-container-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #474737;
+    margin: 5px;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.5;
+}
